@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://www.hajper.com/",
+    "env": {
+        "device": "iphone-x"
+    },
+    "reporter": "cypress-dashboard",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "isLocalDeployment": true,
+        "dashboardTitle": "ComeOn reports"
+    }
+}

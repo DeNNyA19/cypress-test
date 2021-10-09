@@ -1,0 +1,20 @@
+{
+  "name": "kitrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:run:hajper": "cypress run --config baseUrl=\"https://www.hajper.com\"",
+    "cy:run:snabbare": "cypress run --config baseUrl=\"https://www.snabbare.com\"",
+    "cy:open": "cypress open"
+  },
+  "author": "Denis Korbovsky",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  },
+  "dependencies": {
+    "cypress-dashboard": "^3.1.4"
+  }
+}
